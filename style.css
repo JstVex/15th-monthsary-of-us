@@ -1,0 +1,308 @@
+:root {
+    --typewriterSpeed: 6s;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+    position: relative;
+    width: max-content;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+
+
+img {
+    width: 300px;
+    border: 2px solid palegoldenrod;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 2s ease 2s forwards;
+}
+
+
+
+/* .container-fluid {
+    
+} */
+
+.firstPhase, .secondPhase, .thirdPhase, .second2Phase, .third2Phase, .forthPhase, .forth2Phase, .fifthPhase, .fifth2Phase, .sixthPhase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    margin: 50px 70px 0 70px;
+    width: 150px;
+    
+}
+
+.btn1 {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 2s ease 7.5s forwards;
+}
+
+.btn41 {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 2s ease 10s forwards;
+}
+
+.btn42, .btn52 {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 2s ease 6s forwards;
+}
+
+.btn51 {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 2s ease 15s forwards;
+}
+
+.btn6 {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 2s ease 40s forwards;
+}
+
+#fH1::before,
+#fH1::after,
+.fH2::before,
+.fH2::after,
+.fH3::before,
+.fH3::after,
+.fH22::before,
+.fH22::after,
+.fH32::before,
+.fH32::after,
+.fH4::before,
+.fH4::after,
+.fH5::before,
+.fH5::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#fH1::before {
+    background-color: black;
+    animation: typewriter 1.5s steps(6) 1s forwards;
+}
+
+#fH1::after {
+    width: .125em;
+    background-color: palegoldenrod;
+    animation: typewriter 1.5s steps(6) 1s forwards,
+    blink 750ms steps(6) infinite;
+
+}
+
+#ffH4 {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 2s ease 2.5s forwards;
+}
+
+#fsH4 {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 2s ease 4.5s forwards;
+}
+
+.fH2::before {
+    background-color: black;
+    animation: typewriter 5s steps(20) 1s forwards;
+}
+
+.fH2::after {
+    width: .125em;
+    background-color: palegoldenrod;
+    animation: typewriter 5s steps(20) 1s forwards,
+    blink 750ms steps(20) infinite;
+
+}
+
+.f2H4 {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 2s ease 6s forwards;
+}
+
+.fH3::before {
+    background-color: black;
+    animation: typewriter 3s steps(13) 1s forwards;
+}
+
+.fH3::after {
+    width: .125em;
+    background-color: palegoldenrod;
+    animation: typewriter 3s steps(13) 1s forwards,
+    blink 750ms steps(6) infinite;
+
+}
+
+.f3H4 {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 2s ease 5s forwards;
+}
+
+.fH22::before {
+    background-color: black;
+    animation: typewriter 5s steps(20) 1s forwards;
+}
+
+.fH22::after {
+    width: .125em;
+    background-color: palegoldenrod;
+    animation: typewriter 5s steps(20) 1s forwards,
+    blink 750ms steps(20) infinite;
+
+}
+
+.fH32::before {
+    background-color: black;
+    animation: typewriter 3.5s steps(12) 1s forwards;
+}
+
+.fH32::after {
+    width: .125em;
+    background-color: palegoldenrod;
+    animation: typewriter 3.5s steps(12) 1s forwards,
+    blink 750ms steps(20) infinite;
+
+}
+
+.fH4::before {
+    background-color: black;
+    animation: typewriter 5s steps(17) 1s forwards;
+}
+
+.fH4::after {
+    width: .125em;
+    background-color: palegoldenrod;
+    animation: typewriter 5s steps(17) 1s forwards,
+    blink 750ms steps(20) infinite;
+
+}
+
+.f4H4 {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 2s ease 6s forwards;
+}
+
+.f4sH4 {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 2s ease 8s forwards;
+}
+
+.fH5::before {
+    background-color: black;
+    animation: typewriter 8s steps(27) 1s forwards;
+}
+
+.fH5::after {
+    width: .125em;
+    background-color: palegoldenrod;
+    animation: typewriter 8s steps(27) 1s forwards,
+    blink 750ms steps(20) infinite;
+
+}
+
+.f5H4 {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 2s ease 10.5s forwards;
+}
+
+.f5sH4 {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 2s ease 13s forwards;
+}
+
+.f42H4 {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 2s ease 4s forwards;
+}
+
+.fH6 {
+    font-size: 7rem;
+}
+
+.f52H4 {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeIn 2s ease 4s forwards;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 1000px;
+    height: 80vh;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.1),
+    0 0 0 1000px rgba(255,255,255,0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#my-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+}
+
+
+@keyframes typewriter {
+    to { 
+        left: 100%;
+    }
+}
+
+@keyframes blink {
+    to {
+        background-color: transparent;
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
